@@ -90,13 +90,7 @@ const HomeWork = () => {
                                         className='button-reset m-4 lg:m-0 w-full flex-1 flex flex-col md:flex-row max-w-max mx-auto mb-2 text-xs sm:text-sm md:text-base  text-dark-black'
                                         onClick={() => handleButtonClick(index)}
                                     >
-                                        <motion.article
-                                            variants={fadeInImageUp}
-                                            exit={{ opacity: 0 }}
-                                            initial="offscreen"
-                                            whileInView="onscreen"
-                                            viewport={{ once: true, amount: "0.4" }}
-                                        >
+                                        <article>
                                             <div className='overflow-hidden'>
                                                 <Image
                                                     width={500}
@@ -114,7 +108,7 @@ const HomeWork = () => {
                                                     {article.title}
                                                 </h3>
                                             </div>
-                                        </motion.article>
+                                        </article>
                                     </button>
                                 })}
                             </div>
