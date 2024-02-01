@@ -245,13 +245,7 @@ const WorksMain = () => {
                                         className='button-reset m-4 lg:m-0 w-full flex-1 flex flex-col md:flex-row max-w-max mx-auto mb-2 text-xs sm:text-sm md:text-base  text-dark-black'
                                         onClick={() => handleButtonClick(itemIndex)}
                                     >
-                                        <motion.article
-                                            variants={fadeInImageUp}
-                                            exit={{ opacity: 0 }}
-                                            initial="offscreen"
-                                            whileInView="onscreen"
-                                            viewport={{ once: true, amount: "0.4" }}
-                                        >
+                                        <article>
                                             <div className='overflow-hidden'>
                                                 <Image
                                                     width={500}
@@ -268,7 +262,7 @@ const WorksMain = () => {
                                                     {item.title}
                                                 </h3>
                                             </div>
-                                        </motion.article>
+                                        </article>
                                     </button>
                                 })}
                             </div>
@@ -281,19 +275,19 @@ const WorksMain = () => {
                                             <h1 className='text-2xl sm:text-3xl font-medium my-3'>{item.title}</h1>
                                             <ul className='text-xs md:text-xl text-dark-black font-medium'>
                                                 <li className='mb-2'>
-                                                    <span className='text-gray-400'>Coding/Design：</span>
+                                                    <span className='text-gray-400'>コーディング/デザイン：</span>
                                                     {item.author}
                                                 </li>
                                                 <li className='break-all mb-2'>
                                                     <div className='text-gray-400 flex'>
-                                                        <span className=' whitespace-nowrap'>Technology：</span>
+                                                        <span className=' whitespace-nowrap'>使用した技術：</span>
                                                         <div className='text-dark-black break-all'>
                                                             {item.technology}
                                                         </div>
                                                     </div>
                                                 </li>
                                                 <li className='mb-2'>
-                                                    <span className='text-gray-400'>Production period：</span>
+                                                    <span className='text-gray-400'>制作期間：</span>
                                                     {item.productionPeriod}
                                                 </li>
                                                 <li className='break-all'>
