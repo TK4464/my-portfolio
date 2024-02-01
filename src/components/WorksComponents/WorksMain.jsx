@@ -18,7 +18,7 @@ const WorksData = [
                 author: '呉島 大暉',
                 technology: 'Next.js/Tailwind CSS/Illustrator/Photoshop/AfterEffects/Figma/VS Code',
                 productionPeriod: '2023.11~ / 2 months',
-                url: '＃',
+                url: 'https://taiki-kureshima-portfolio.vercel.app/',
                 comment: '0からポートフォリオサイトを制作を行いました。\nデザイン面においてはシンプルさを意識して見る人にとってわかりやすくすることを意識しました。\n技術面おいては初めてNext.jsを使用してのWeb制作で手探りだったこともあり、配列を使ってコードの簡略化などを試みたものの全体的にコードが複雑になってしまった点や、FramerMotionを使用したページ遷移時のアニメーションの動きがnext13のAppRouterを使用した際に上手く行かず結果的にPagesRouterでのサイト制作になった点は今後の課題だと考えています。\nまた、Next.jsに触れる機会は今後も確実にあると思うのでSSRやCSR、SSGなどについてや、動的なサイトを作るための技術などについても更に学んでいきたいと考えています。\nただ、自分にとって初めて使用する新しい技術を駆使して作品を完成させられたという点では大きく成長できたのではないかと考えています。',
             },
             {
@@ -95,7 +95,7 @@ const WorksData = [
                 author: '呉島 大暉',
                 technology: 'Next.js/Tailwind CSS/Illustrator/Photoshop/AfterEffects/Figma/VS Code',
                 productionPeriod: '2023.11~ / 2 months',
-                url: '＃',
+                url: 'https://taiki-kureshima-portfolio.vercel.app/',
                 comment: '0からポートフォリオサイトを制作を行いました。\nデザイン面においてはシンプルさを意識して見る人にとってわかりやすくすることを意識しました。\n技術面おいては初めてNext.jsを使用してのWeb制作で手探りだったこともあり、配列を使ってコードの簡略化などを試みたものの全体的にコードが複雑になってしまった点や、FramerMotionを使用したページ遷移時のアニメーションの動きがnext13のAppRouterを使用した際に上手く行かず結果的にPagesRouterでのサイト制作になった点は今後の課題だと考えています。\nまた、Next.jsに触れる機会は今後も確実にあると思うのでSSRやCSR、SSGなどについてや、動的なサイトを作るための技術などについても更に学んでいきたいと考えています。\nただ、自分にとって初めて使用する新しい技術を駆使して作品を完成させられたという点では大きく成長できたのではないかと考えています。',
             },
             {
