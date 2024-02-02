@@ -253,6 +253,8 @@ const WorksMain = () => {
                                                     alt={item.alt}
                                                     className="object-cover block hーauto w-auto hover:scale-110 duration-500"
                                                     src={item.imageUrl}
+                                                    unoptimized
+
                                                 />
                                             </div>
 
@@ -313,6 +315,8 @@ const WorksMain = () => {
                                                     alt={item.alt}
                                                     className="object-contain block hーauto w-auto mx-auto"
                                                     src={item.modalImageUrl}
+                                                    unoptimized
+
                                                 />
                                             </div>
                                         </div>

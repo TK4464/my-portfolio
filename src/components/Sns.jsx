@@ -36,6 +36,7 @@ const Sns = () => {
                             className="h-6 xs:h-7 sm:h-9 xl:h-10 w-auto"
                             src={socialMedia.icon}
                             alt={`${socialMedia.name}アカウント`}
+                            unoptimized
                         />
                     </Link>
                 </li>))

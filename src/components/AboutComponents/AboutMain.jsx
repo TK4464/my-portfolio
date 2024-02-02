@@ -40,6 +40,7 @@ const AboutMain = () => {
                                     width={400}
                                     height={400}
                                     style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                    unoptimized
                                     className='object-cover rounded-lg drop-shadow-2xl mx-auto xl:mx-0 xl:ml-auto ' />
                             </motion.div>
 

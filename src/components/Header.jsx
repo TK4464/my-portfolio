@@ -38,6 +38,7 @@ const Header = () => {
                             className="block hーauto w-auto mx-auto h-[40px] sm:h-[60px] md:h-[70px] lg:h-[75px]"
                             src="/images/portfolio-mainlogo.png"
                             priority
+                            unoptimized
                         />
                     </Link>
                 </div>

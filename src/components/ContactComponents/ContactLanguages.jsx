@@ -75,9 +75,12 @@ const ContactLanguages = () => {
                                     whileTap={{ y: -20 }}
                                     transition={{ type: "spring", stiffness: 400, damping: 1 }}
                                 >
-                                    <Image src={language.image} alt={language.name} width={100}
+
+                                    <Image 
+                                        src={language.image} alt={language.name} width={100}
                                         height={100}
                                         style={{ width: '50%', height: 'auto', objectFit: 'contain' }}
+                                        unoptimized
                                     />
                                 </motion.div>
                             </div>

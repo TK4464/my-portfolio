@@ -4,7 +4,8 @@ import Image from 'next/image';
 import Button from '../Button';
 import Modal from '../Modal';
 import { motion } from 'framer-motion';
-import { fadeInImageUp, fadeInUp } from '../fadeIn';
+
+import { fadeInUp } from '../fadeIn';
 
 const articles = [
     {
@@ -100,6 +101,7 @@ const HomeWork = () => {
                                                     className="block h-auto w-full hover:scale-110 duration-500"
                                                     quality={75}
                                                     src={article.imageUrl}
+                                                    unoptimized
                                                 />
                                             </div>
                                             <div className=" items-center justify-between leading-tight py-1">
@@ -162,6 +164,7 @@ const HomeWork = () => {
                                                     style={{ objectFit: 'contain' }}
                                                     className="block hーauto w-auto mx-auto"
                                                     src={item.modalImageUrl}
+                                                    unoptimized
                                                 />
                                             </div>
                                         </div>

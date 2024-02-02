@@ -142,6 +142,7 @@ const AboutSkills = () => {
                                                 width={300}
                                                 height={240}
                                                 style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                                unoptimized
                                             />
                                             <h2 className='text-3xl lg:text-4xl text-center font-semibold'>{section.title}</h2>
                                         </motion.div>
@@ -180,6 +181,7 @@ const AboutSkills = () => {
                                                 src={skill.image} 
                                                 alt={skill.name} 
                                                 className='h-[50px] xs:h-[60px] md:h-[70px] 2xl:h-[100px]'
+                                                unoptimized
                                             />
                                         </div>
                                         <div className='w-full text-start align-middle ml-2 xl:ml-3 2xl:ml-10'>
