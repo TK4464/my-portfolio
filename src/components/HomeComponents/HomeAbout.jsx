@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import Image from 'next/image';
-import profilePic from 'public/images/home-about.jpeg'
 import {
     SiHtml5,
     SiCss3,
@@ -21,6 +19,8 @@ import Link from "next/link";
 import Button from '../Button';
 import { motion } from 'framer-motion';
 import { fadeInImageUp2, fadeInUp, fadeInUpX, fadeInUpX2 } from '../fadeIn';
+import Image from 'next/image';
+import profilePic from 'public/images/home-about.jpeg'
 
 const aboutData = [
     {
@@ -147,13 +147,11 @@ const HomeAbout = () => {
                             >
                                 <Image
                                     src={profilePic}
-                                    alt='about-img'
-                                    priority={false}
+                                    alt='home-about.jpeg'
                                     width={450} height={450}
                                     style={{ objectFit: 'contain' }}
                                     className=' w-[300px] h-[300px]  md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px] object-cover rounded-lg drop-shadow-2xl'
                                     unoptimized
-
                                 />
                             </motion.div>
                             {/* セレクト項目全体 */}

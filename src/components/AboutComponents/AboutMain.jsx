@@ -1,7 +1,7 @@
-import Image from 'next/image';
 import { motion } from "framer-motion";
-import profilePic from '/public/images/home-about.jpeg'
 import { fadeInImageUp2, fadeInUp2, fadeInUpX } from '../fadeIn';
+import Image from 'next/image';
+import profilePic from '/public/images/home-about.jpeg'
 
 const AboutMain = () => {
 
@@ -9,7 +9,7 @@ const AboutMain = () => {
     return (
         <article className=' relative w-full h-full mx-auto'>
             <div className='container mx-auto'>
-                <div className=' mx-2 sm:mx-6 lg:mx-12 pt-12 lg:pt-20 pb-12 lg:pb-20'>
+                <div className=' mx-2 sm:mx-6 lg:mx-12 pb-12 lg:pb-20'>
                     <motion.div
                         className='text-center  pb-0 xl:pb-10'
                         // スクロールアニメーション
@@ -39,9 +39,10 @@ const AboutMain = () => {
                                     alt='about-img'
                                     width={400}
                                     height={400}
-                                    style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                                    style={{ width: '100%', height: 'auto' }}
+                                    className='object-cover rounded-lg drop-shadow-2xl mx-auto xl:mx-0 xl:ml-auto '
                                     unoptimized
-                                    className='object-cover rounded-lg drop-shadow-2xl mx-auto xl:mx-0 xl:ml-auto ' />
+                                />
                             </motion.div>
 
                             {/* プロフィール文 */}

@@ -22,7 +22,7 @@ const Modal = ({ isVisible, onClose, children }) => {
                 {/* ボタン */}
                 <button className='text-navy text-5xl place-self-end' onClick={() => onClose()}>&times;</button>
                 {/* モーダルのコンテンツ部分 */}
-                <div className=' bg-white-2 bg-cover bg-no-repeat bg-center h-[90%] drop-shadow-2xl  overflow-y-scroll'>
+                <div className=' bg-white-2 rounded-xl bg-cover bg-no-repeat bg-center h-[90%] drop-shadow-2xl  overflow-y-scroll'>
                     {children}
                 </div>
             </div>

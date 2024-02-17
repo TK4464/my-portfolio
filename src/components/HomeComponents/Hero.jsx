@@ -10,7 +10,7 @@ const Fallback = () => <div></div>;
 
 const Hero = () => {
     return (
-        <article className='w-full min-h-screen relative'>
+        <article className='w-full min-h-screen relative '>
             <Suspense fallback={<Fallback />}>
                 <MainVisualAnimation />
             </Suspense>

@@ -13,10 +13,11 @@ const socialMediaLinks = [
         href: 'https://instagram.com/tk_4464?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr',
         icon: '/snsinsta.svg'
     },
+    
     {
-        name: 'X',
-        href: 'https://x.com/tk4464',
-        icon: '/snsx.svg'
+        name: 'Github',
+        href: 'https://github.com/tk4464',
+        icon: '/github-mark.svg'
     },
 
 ];
@@ -33,7 +34,7 @@ const Sns = () => {
                             width={50}
                             height={50}
                             style={{ objectFit: 'contain' }}
-                            className="h-6 xs:h-7 sm:h-9 xl:h-10 w-auto"
+                            className="h-6 xs:h-7 sm:h-9 xl:h-10 w-auto object-cover"
                             src={socialMedia.icon}
                             alt={`${socialMedia.name}アカウント`}
                             unoptimized

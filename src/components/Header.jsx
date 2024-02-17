@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 
-
 const Header = () => {
     const [open, setOpen] = useState(false);
 
@@ -18,9 +17,9 @@ const Header = () => {
 
     const navItems = [
         { label: 'HOME', path: '/' },
-        { label: 'ABOUT', path: '/about' },
-        { label: 'WORKS', path: '/works' },
-        { label: 'CONTACT', path: '/contact' },
+        { label: 'ABOUT', path: '/about/' },
+        { label: 'WORKS', path: '/works/' },
+        { label: 'CONTACT', path: '/contact/' },
     ];
 
     const navigation = usePathname();
@@ -31,11 +30,10 @@ const Header = () => {
                 <div className='mb-0 mx-2 sm:mx-3 lg:mx-12'>
                     <Link href='/'>
                         <Image
+                            alt="Taiki Kureshima Portfolio"
                             width={500}
                             height={500}
-                            alt="Taiki Kureshima Portfolio"
-                            style={{ objectFit: 'contain' }}
-                            className="block hーauto w-auto mx-auto h-[40px] sm:h-[60px] md:h-[70px] lg:h-[75px]"
+                            className="block hーauto w-auto mx-auto h-[40px] sm:h-[60px] md:h-[70px] lg:h-[75px] object-contain"
                             src="/images/portfolio-mainlogo.png"
                             priority
                             unoptimized
@@ -72,17 +70,17 @@ const Header = () => {
                         </ul>
                     </nav>
                     <button
-                        className="z-[50] space-y-3 mx-3 sm:mx-5 lg:mr-12" onClick={handleMenuOpen}
+                        className="z-[50] space-y-3 mx-3 sm:mx-5  lg:mr-12" onClick={handleMenuOpen}
                     >
                         <span className={
                             open
-                                ? "block w-[24px] h-0.5 xs:w-8 xs:h-0.5 bg-white-gray translate-y-1 rotate-45 duration-500"
+                                ? "block w-[24px] h-0.5 xs:w-8 xs:h-0.5 bg-white-gray translate-y-1.5 rotate-45 duration-500"
                                 : "block w-[24px] h-0.5 xs:w-8 xs:h-0.5 bg-dark-black duration-500"
                         }
                         />
                         <span className={
                             open
-                                ? "block w-[24px] h-0.5 xs:w-8 xs:h-0.5 bg-white-gray -translate-y-2.5 -rotate-45 duration-500"
+                                ? "block w-[24px] h-0.5 xs:w-8 xs:h-0.5 bg-white-gray -translate-y-2 -rotate-45 duration-500"
                                 : "block w-[24px] h-0.5 xs:w-8 xs:h-0.5 bg-dark-black duration-500"
                         }
                         />
