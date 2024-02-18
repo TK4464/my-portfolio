@@ -67,7 +67,7 @@ const aboutData = [
         title: 'AWARDS',
         info: [
             {
-                title: 'HAL3校合同コンテスト WEBデザインコンペ 銀賞',
+                title: 'HAL3校合同コンテスト 美しいWEBデザイン学内コンペ 銀賞',
                 stage: '2023 - 2024',
             },
         ],
