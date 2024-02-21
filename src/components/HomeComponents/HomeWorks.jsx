@@ -80,7 +80,7 @@ const HomeWork = () => {
                         <h2 className='pb-5 text-4xl sm:text-5xl lg:text-6xl xl:text-6xl 2xl:text-8xl font-normal'>-WORKS- <span className='text-xl sm:text-2xl xl:text-3xl align-middle'>〜これまでの実績〜</span></h2>
                     </motion.div>
                     <div className='h-full xl:mx-10 2xl:mx-12 pt-10 xl:py-4 '>
-                        <div className="container mb-10 mx-auto px-4 md:px-12">
+                        <div className="container mb-10 mx-auto">
 
                             {/* 作品画像（グリッド） */}
                             <div className=' h-full lg:grid grid-cols-2 gap-x-20 2xl:gap-x-28 justify-items-center mx-auto mb-10'>
