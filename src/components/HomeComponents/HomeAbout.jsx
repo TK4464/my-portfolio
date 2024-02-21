@@ -150,7 +150,7 @@ const HomeAbout = () => {
                                     alt='home-about.jpeg'
                                     width={430} height={430}
                                     style={{ objectFit: 'contain' }}
-                                    className=' w-[300px] h-[300px]  md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] xl:w-[430px] xl:h-[430px] object-cover rounded-lg drop-shadow-2xl'
+                                    className=' w-[300px] h-[300px]  md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] xl:w-[430px] xl:h-[430px] object-cover rounded-lg drop-shadow-2xl 2xl:mx-auto'
                                     unoptimized
                                 />
                             </motion.div>
