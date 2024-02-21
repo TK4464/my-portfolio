@@ -135,9 +135,9 @@ const HomeAbout = () => {
                     </motion.div>
 
                     <div className='h-full xl:mx-10 2xl:mx-12 xl:py-4 '>
-                        <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-8'>
+                        <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-12'>
                             <motion.div
-                                className=' my-10 xl:my-0 mx-auto'
+                                className=' my-10 xl:my-0 mx-auto basis-5/12'
                                 // スクロールアニメーション
                                 variants={fadeInImageUp2}
                                 exit={{ opacity: 0 }}
@@ -148,19 +148,19 @@ const HomeAbout = () => {
                                 <Image
                                     src={profilePic}
                                     alt='home-about.jpeg'
-                                    width={450} height={450}
+                                    width={430} height={430}
                                     style={{ objectFit: 'contain' }}
-                                    className=' w-[300px] h-[300px]  md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] xl:w-[450px] xl:h-[450px] object-cover rounded-lg drop-shadow-2xl'
+                                    className=' w-[300px] h-[300px]  md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] xl:w-[430px] xl:h-[430px] object-cover rounded-lg drop-shadow-2xl'
                                     unoptimized
                                 />
                             </motion.div>
                             {/* セレクト項目全体 */}
-                            <div className=' w-[97%] xs:w-[98%] sm:w-[95%] md:w-[87%] lg:w-[68%] xl:w-[50%]'
+                            <div className='xl:basis-7/12 w-[97%] xs:w-[98%] sm:w-[95%] md:w-[87%] lg:w-[68%] '
                             >
                                 <div className='flex items-center xl:items-start flex-col h-[360px] sm:h-[380px] md:h-[360px] xl:h-[420px] 2xl:h-[420px] '
                                 >
                                     <motion.div
-                                        className='flex gap-x-4 xs:gap-x-4 sm:gap-x-3 md:gap-x-7 xl:gap-x-4 xl:mx-0 mb-4 xl:mt-6 xl:mb-8'
+                                        className='flex gap-x-4 xs:gap-x-4 sm:gap-x-3 md:gap-x-7 2xl:gap-x-8 xl:mx-0 mb-4 xl:mt-6 xl:mb-8'
                                         // スクロールアニメーション
                                         variants={fadeInUpX2}
                                         exit={{ opacity: 0 }}
@@ -172,7 +172,7 @@ const HomeAbout = () => {
                                             return <button
                                                 key={itemIndex}
                                                 className={`${index === itemIndex ? 'text-navy after:w-[100%] after:bg-navy after:transition-all after:duration-500' : 'text-dark-black'
-                                                    } xs:tracking-wider cursor-pointer button-reset font-semibold capitalize text-xs xs:text-sm sm:text-xl xl:text-lg  2xl:text-2xl relative after:w-8 after:h-[2px] hover:after:bg-navy hover:text-navy after:bg-dark-black after:absolute after:-bottom-1 after:left-0 duration-500 after:duration-500`}
+                                                    } xs:tracking-wider cursor-pointer button-reset font-semibold capitalize text-xs xs:text-sm sm:text-xl xl:text-xl  2xl:text-2xl relative after:w-8 after:h-[2px] hover:after:bg-navy hover:text-navy after:bg-dark-black after:absolute after:-bottom-1 after:left-0 duration-500 after:duration-500`}
                                                 onClick={() => setIndex(itemIndex)}
                                             >
                                                 {/* 項目 */}
