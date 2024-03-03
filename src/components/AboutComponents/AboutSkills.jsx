@@ -6,7 +6,7 @@ const sections = [
     {
         title: 'CODING',
         imgSrc: '/programming-icon.svg',
-        description: 'HTML/CSS/JavaScript/jQueryでのページ制作をはじめとして、React.js/Next.JS/Tailwind CSSといった幅広い技術も学習し、「作りながら学ぶ」感覚と、自走することを大事にしてWEB制作に挑戦しています。クライアントやユーザーの課題を解決できるクリエイターになるために、新しい技術にも臆することなくチャレンジし、日々一歩でも成長していくことを大切にしています。',
+        description: 'HTML/CSS/JavaScript/jQueryでのページ制作をはじめとして、React.js/Next.js/Tailwind CSSといった幅広い技術も学習し、「作りながら学ぶ」感覚と、自走することを大事にしてWEB制作に挑戦しています。クライアントやユーザーの課題を解決できるクリエイターになるために、新しい技術にも臆することなくチャレンジし、日々一歩でも成長していくことを大切にしています。',
     },
     {
         title: 'DESIGN',
