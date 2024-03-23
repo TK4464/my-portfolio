@@ -67,6 +67,10 @@ const aboutData = [
         title: 'AWARDS',
         info: [
             {
+                title: 'HAL3校合同コンテスト 店舗サイトリデザイン学内コンペ 構成力賞',
+                stage: '2024 - 2025',
+            },
+            {
                 title: 'HAL3校合同コンテスト 美しいWEBデザイン学内コンペ 銀賞',
                 stage: '2023 - 2024',
             },
@@ -191,7 +195,7 @@ const HomeAbout = () => {
                                         viewport={{ once: true, amount: "0.4" }}
                                     >
                                         {aboutData[index].info.map((item, itemIndex) => {
-                                            return <div key={itemIndex} className='flex-1 flex flex-col md:flex-row max-w-max items-center mb-2 text-xs sm:text-sm md:text-base text-dark-black'
+                                            return <div key={itemIndex} className='flex-1 flex flex-col md:flex-row max-w-max items-center mb-2 text-[11.5px] sm:text-sm md:text-base text-dark-black'
                                             >
 
                                                 {/* タイトル */}
