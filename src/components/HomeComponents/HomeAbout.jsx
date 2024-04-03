@@ -81,7 +81,7 @@ const aboutData = [
         info: [
             {
                 title: 'Student - HAL東京 WEB学科',
-                stage: '2023 - 2024',
+                stage: '2023 - 2025',
             },
             {
                 title: 'Consulting Sales - 株式会社中国銀行',
