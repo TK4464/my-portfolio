@@ -22,7 +22,7 @@ const AboutMain = () => {
                         <h2 className='pb-5 text-4xl sm:text-5xl lg:text-8xl 2xl:text-9xl font-normal '>-ABOUT- <span className='text-xl sm:text-2xl xl:text-3xl align-middle'>〜私について〜</span></h2>
                     </motion.div>
 
-                    <div className='h-full xl:mx-10 2xl:mx-12 xl:py-4 '>
+                    <div className='h-full xl:mx-10 2xl:mx-12 xl:py-4'>
                         <div className='container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-28 mt-5 xl:mt-4'>
                             {/* 画像 */}
                             <motion.div
@@ -63,9 +63,10 @@ const AboutMain = () => {
                                                     <div className='font-normal  md:mb-0 xl:pr-3 2xl:pr-0 leading-[40px] mx-auto '>
                                                         <h2 className='text-center xl:text-start text-xl xs:text-2xl sm:text-3xl border-b-2 border-dark-black pb-4 '>呉島 大暉 / Taiki Kureshima</h2>
                                                         <div className='mt-4 text-justify tracking-wider'>
-                                                            1996年、岡山県出身。岡山城東高校に入学後は甲子園出場を目指して毎日野球に打ち込んでいました。その後、早稲田大学に進学し、卒業後は新卒入社した銀行で個人向けのコンサルティングセールスをしていました。
+                                                            岡山県出身。高校時代は甲子園出場を目指して毎日野球に打ち込んでいました。その後、早稲田大学に進学し、卒業後は新卒入社した銀行で個人向けのコンサルティングセールスをしていました。
                                                             2023年4月にHAL東京WEB学科に再進学。
-                                                            フロントエンドエンジニア・WEBデザイナーを目指し、日々寝る間も惜しんで勉学に励んでいます。現在は就活中です。
+                                                            フロントエンドエンジニア・WEBデザイナーを目指し、日々寝る間も惜しんで勉学に励んでいました。
+                                                            現在は、web制作会社にてフロントエンドエンジニアとして働いています。
                                                         </div>
                                                     </div>
                                                 </div>

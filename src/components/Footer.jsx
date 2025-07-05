@@ -34,7 +34,7 @@ const Footer = () => {
                     </div>
 
                     <div className='text-center my-2 mx-auto'>
-                        <small className='text-white-gray text-xs xs:text-sm font-light'>&copy;2024 Taiki Kureshima Portfolio All Rights Reserved.</small>
+                        <small className='text-white-gray text-xs xs:text-sm font-light'>&copy;2025 Taiki Kureshima Portfolio All Rights Reserved.</small>
                     </div>
                 </div>
             </section>

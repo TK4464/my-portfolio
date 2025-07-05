@@ -3,16 +3,16 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const socialMediaLinks = [
-    {
-        name: 'Wantedly',
-        href: 'https://www.wantedly.com/id/taiki_kureshima_',
-        icon: '/Wantedly_Mark_LightBG.svg'
-    },
-    {
-        name: 'Instagram',
-        href: 'https://instagram.com/tk_4464?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr',
-        icon: '/snsinsta.svg'
-    },
+    // {
+    //     name: 'Wantedly',
+    //     href: 'https://www.wantedly.com/id/taiki_kureshima_',
+    //     icon: '/Wantedly_Mark_LightBG.svg'
+    // },
+    // {
+    //     name: 'Instagram',
+    //     href: 'https://instagram.com/tk_4464?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr',
+    //     icon: '/snsinsta.svg'
+    // },
     
     {
         name: 'Github',
@@ -36,7 +36,7 @@ const Sns = () => {
                             style={{ objectFit: 'contain' }}
                             className="h-6 xs:h-7 sm:h-9 xl:h-10 w-auto object-cover"
                             src={socialMedia.icon}
-                            alt={`${socialMedia.name}アカウント`}
+                            alt={socialMedia.name}
                             unoptimized
                         />
                     </Link>
